@@ -60,7 +60,7 @@ Insert::
         Send "®"
     case "f":
         Send "→"
-    Default:
+    default:
         return
     }
 }

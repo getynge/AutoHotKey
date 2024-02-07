@@ -10,3 +10,6 @@ A_MenuMaskKey := "vkFF"
 
 #Include symbols.ahk
 #Include desktop.ahk
+
+; applications
+#Include vivaldi.ahk
