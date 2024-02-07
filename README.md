@@ -1,0 +1,1 @@
+These are the autohotkey scripts I use on my own machine.
