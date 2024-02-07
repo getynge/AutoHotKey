@@ -2,11 +2,24 @@ These are the autohotkey scripts I use on my own machine.
 
 The below rules and conventions are for personal reference so my scripts feel consistent to use and modify
 
-# Input device conventions
-* F24 should either be a remapping of the dpi switch on a mouse that has one or a temporary remap of the number row on keyboards that support it (e.g. razer hypershift)
-* F23 and F22 should be a remapping of the rear most side buttons on an mmo-style mouse or a temporary remap of the number row on keyboards that support it (e.g. razer hypershift)
+# Usage
 
-# Conventions
+## Input device recommendations
+
+F24, F23, and F22 should be remapped to a single key you can easily get to in whatever software you use for remapping (The DPI switch on my mouse is remapped to F24 for example)
+Hotkeys will not use the number row up to 0, so if you have temporary remaps like hypershift the number row is a safe place to put those remaps
+
+## Other software recommendations
+
+Microsoft Powertoys is a good companion to these scripts, espcially the launcher hotkeys in desktop.ahk. I essentially use those hotkeys as a kind of makeshift game overlay, in conjunction with a FancyZones layout on my primary monitor that makes sure these makeshift overlays don't cover too much of the screen, for this reason I play most games in fullscreen windowed to make sure they switch as gracefully as possible.
+
+I personally treat folders on my desktop as a collection of "launchers" and tend not to put anyhthing else on there, hotkeys that open folders will open these launcher folders that are located on the desktop. All my games are in Desktop\Games and all my graphical development tools are in Desktop\Development.
+
+At the time of writing this README the windows key is not being remapped in any scripts, but this may change in the future.
+
+# Development
+
+## Conventions
 
 * Hotkeys using F13-F24 will not use number row keys up to and including 0
 * Hotkey combinations will not contain caps lock
@@ -31,7 +44,7 @@ The below rules and conventions are for personal reference so my scripts feel co
   * Win + Y (switch input between mixed reality)
   * Win + Period (open emoji panel (use Win + Semicolon instead))
 
-# Style Conventions
+## Style Conventions
 
 * All block definitions, with the sole exception of hotkey definitions, put curly braces on the same line as the rest of the expression
 * Single statement hotkeys do not go in their own block
